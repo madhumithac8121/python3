@@ -1,0 +1,7 @@
+#Program to print only the positive integers
+lists2=[-10,21,-4,-45,-66,9,8,41]
+num=0
+while(num<(lists2)):
+   if lists2[num]>=0:
+     print(lists2[num],end=" ")
+   num+=1  
